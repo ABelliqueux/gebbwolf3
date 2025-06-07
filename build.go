@@ -217,7 +217,7 @@ func main() {
 	// Rename
 	var src = outputDirName + "/book.pdf"
 	var dst = outputDirName + "/" + currentDir() + "_" + getMode() + ".pdf"
-	fmt.Print("Exporting to ",os.Getwd(),dst)
-
+	fmt.Print("Exporting to ",cwd(), dst,"\n")
+	
 	os.Rename(src, dst)
 }
