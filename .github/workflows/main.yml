@@ -13,6 +13,6 @@ jobs:
             - run: ./make.sh
             - uses: actions/upload-artifact@v4
               with:
-                name: gebbwolf3.pdf
-                path: out/release.pdf
+                name: gebbwolf3_release.pdf
+                path: out/
                 retention-days: 90
